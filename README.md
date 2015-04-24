@@ -5,7 +5,7 @@
 ### Links
 
   - Heroku: https://whispering-springs-8808.herokuapp.com/
-  - GitHub:
+  - GitHub: https://github.com/courtneymaepdx/word-frequency-app
 
 ## Synopsis
 
