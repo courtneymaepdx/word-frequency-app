@@ -14,8 +14,4 @@ describe('String#word_frequency') do
     expect("The roving, ever-impatient mob of toddlers began chanting cake, CAKE, CAKE, caKe, cAKE!".word_frequency("cake")).to(eq(5))
   end
 
-  it("counts occurrences of numerical values in a phrase") do
-    expect("I have all 27 David Bowie albums".word_frequency(27)).to(eq(1))
-  end
-
 end
