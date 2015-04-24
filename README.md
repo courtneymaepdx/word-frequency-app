@@ -2,7 +2,7 @@
 
 ---
 
-### Links
+#### Links
 
   - Heroku: https://whispering-springs-8808.herokuapp.com/
   - GitHub: https://github.com/courtneymaepdx/word-frequency-app
@@ -19,7 +19,7 @@ Built with today's busy user in mind, Word Frequency aims to reduce the burden, 
 
 The magic behind Word Frequency is a simple `String#word_frequency` method that acts upon a phrase, including the word you wish to count as the argument.
 
-  "Wow, I'm so, so glad I don't have to read this sentence myself".word_frequency("so")
+  ``"Wow, I'm so, so glad I don't have to read this sentence myself".word_frequency("so")``
 
 ## Contribute
 
