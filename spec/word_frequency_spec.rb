@@ -15,4 +15,8 @@ describe('String#word_frequency') do
     expect("I like don't know if I like him or like like him like you know?".word_frequency("like")).to(eq(5))
   end
 
+  it("counts words with irregular casing") do
+    expect("The ever-impatient gaggle of toddlers began chanting cake CAKE CAKE caKe cAKE".word_frequency("cake")).to(eq(5))
+  end
+
 end
