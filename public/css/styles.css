@@ -1,0 +1,32 @@
+div {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.jumbotron {
+  padding: 45px;
+}
+
+.title {
+  font-size: 35px;
+}
+
+.lead {
+  font-size: 21px;
+}
+
+.btn {
+  background-color: #5bc0de;
+  border: none;
+  margin-top: 45px;
+}
+
+.results-box {
+  text-align: center;
+  background-color: #eee;
+}
+
+.user-input-box {
+  background-color: rgba(86,61,124,.15);
+  padding: 8px;
+}

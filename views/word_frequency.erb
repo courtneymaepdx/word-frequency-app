@@ -1,4 +1,15 @@
-<h1><em>"<%= @word %>"</em></h1>
-<h1>appears in your phrase:</h1>
-<h2><em> "<%= @phrase %>" </em></h2>
-<h1><%= @occurrence_number %></h1>
+<div class="jumbotron">
+  <h1 class="title">Results:</h1><br>
+  <p class="lead"><i>Drumroll please...</i></p>
+</div>
+<div class="results-box">
+  <div class="user-input-box">
+    <h4><em><%= @word %></em></h4>
+  </div>
+  <h3>appears in your phrase:</h3><br>
+  <div class="user-input-box">
+    <h4><em><%= @phrase %></em></h4>
+  </div>
+  <h3><%= @occurrence_number %>
+  <%= @plural %> </h3>
+</div>

@@ -12,11 +12,13 @@ get('/word_frequency') do
   @word = params.fetch('word')
   @occurrence_number = @phrase.word_frequency(@word)
   if @occurrence_number == 0
-    @occurrence_number = "Zero times! That word isn't even in this phrase!"
+    @occurrence_number = "zero times! That word isn't even in your phrase!"
   elsif @occurrence_number == 1
-    @occurrence_number = "Once!"
+    @occurrence_number = "once!"
   else
-    puts "times!"
+    @occurrence_number
+    @plural = "times!"
   end
+
   erb(:word_frequency)
 end
