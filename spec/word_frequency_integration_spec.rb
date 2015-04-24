@@ -10,5 +10,4 @@ describe('the word frequency path', {:type => :feature}) do
     click_button('Submit')
     expect(page).to have_content(2)
   end
-
 end

@@ -11,7 +11,7 @@ describe('String#word_frequency') do
   end
 
   it("counts words regardless of any extra punctuation attached") do
-    expect("The roving, ever-impatient mob of toddlers began chanting cake, CAKE, CAKE, caKe, cAKE!".word_frequency("cake")).to(eq(5))
+    expect("The ever-impatient mob of toddlers began chanting cake, CAKE, CAKE, caKe, cAKE!".word_frequency("cake")).to(eq(5))
   end
 
 end
