@@ -9,7 +9,7 @@
 
 ## Synopsis
 
-Word Frequency is a simple Ruby application built by [Courtney Phillips](https://github.com/courtneymaepdx) with the ability to process both a phrase and a singular word, then return the number of times that word occurs in the given phrase.
+Word Frequency is a simple Ruby application built by [Courtney Phillips](https://github.com/courtneymaepdx) with the ability to process both a phrase and a singular word, then return the number of times that word occurs in the given phrase. Crafted as part of the Spring 2015 Ruby course curriculum at [Epicodus](https://www.epicodus.com/).
 
 ## Motivation
 
